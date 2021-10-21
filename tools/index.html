@@ -6,15 +6,15 @@
 <meta name=color-scheme content="light dark">
 <meta name=author content="Dennis Acar">
 <meta name=description content="Info  This page is currently under construction.  The tools section contains a list of useful tools and software I use for different ares. I hope you can make any advantage of it. If you have and useful suggestions, please contact me - I am grateful for any hint.
-Browser-Addons     Vimium - This is one of my favourite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
+Browser-Addons     Vimium - This is one of my favorite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
 <meta name=keywords content="blog,developer,personal">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Tools">
 <meta name=twitter:description content="Info  This page is currently under construction.  The tools section contains a list of useful tools and software I use for different ares. I hope you can make any advantage of it. If you have and useful suggestions, please contact me - I am grateful for any hint.
-Browser-Addons     Vimium - This is one of my favourite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
+Browser-Addons     Vimium - This is one of my favorite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
 <meta property="og:title" content="Tools">
 <meta property="og:description" content="Info  This page is currently under construction.  The tools section contains a list of useful tools and software I use for different ares. I hope you can make any advantage of it. If you have and useful suggestions, please contact me - I am grateful for any hint.
-Browser-Addons     Vimium - This is one of my favourite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
+Browser-Addons     Vimium - This is one of my favorite plugins. Even though I am not a vim power-user I enjoy using this plugin.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.dennisacar.de/tools/"><meta property="article:section" content>
 <meta property="article:published_time" content="2021-10-06T23:28:02+02:00">
@@ -81,7 +81,44 @@ Browser-Addons
 </a>
 </h2>
 <ul>
-<li><a href=https://github.com/philc/vimium><strong>Vimium</strong></a> - <em>This is one of my favourite plugins. Even though I am not a vim power-user I enjoy using this plugin. It allows me to nagivate and scroll through websites only by using the keyboard keys. After some time you will get used to it.</em></li>
+<li><a href=https://github.com/philc/vimium><strong>Vimium</strong></a> - <em>This is one of my favorite plugins. Even though I am not a vim power-user I enjoy using this plugin. It allows me to navigate and scroll through websites only by using the keyboard keys. After some time you will get used to it.</em></li>
+</ul>
+<h2 id=home-infrastructure>
+Home-Infrastructure
+<a class=heading-link href=#home-infrastructure>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<ul>
+<li>
+<p><a href=https://www.synology.com/><strong>Synology NAS (DS213j)</strong></a>- <em>Long time ago I built my own custom MicroATX server and disliked managed systems - it was fun but required a lot of attention. A good friend of mine, surprised me 2016 with this two-bay NAS and I migrated. I really enjoy the convenience to make all the settings very quickly. Besides the very important RAID-1 configuration, I like the following features: Configurable HDD hibernation, S.M.A.R.T monitoring, reverse proxy with Let´s Encrypt support, Support of different access protocols (Web-Interface, Native Synology Drive Clients, SMB, WebDAV), <code>tree</code> like Storage Analyzer, File versioning and more. Since the 2021 released DSM7, the UI feels more responsive and modern. In the next two years, I want to buy a new one - this time a more powerful 4-bay NAS to use Docker and the Virtual Machine Manager.</em></p>
+</li>
+<li>
+<p><a href=https://github.com/pi-hole/pi-hole><strong>PiHole (Raspberry Pi 4)</strong></a> - <em>In 2021 I decided to selfhost a network wide DNS server with PiHole. It is blocking various ads and trackers on every device in my home network. I only had to configure the local dns entries of devices with an static ip-address. The modern web interface reveals shocking and surprising statistics about the joyful communication of some of my devices.</em></p>
+</li>
+<li>
+<p><a href=https://github.com/nextcloud/nextcloudpi><strong>NextCloudPi (Raspberry Pi 4)</strong></a> - <em>For managing and synchronizing my contacts, calendar and notes I am using a dedicated server. I could run it on my Synology NAS, but I want to keep this data separated and I enjoy the NextCloud-UI. NextCloudPi is an ready to use image for any Raspberry Pi. It can automatically update and backup the running NextCloud instance with all the installed plugins. The whole configuration is optimized for running NextCloud on it - this is the reason why it feels so smooth and fast (e.g. Redis, OPcache, various cronjobs). To synchronize my contacts and calendar with my android phone, I am using DAVx⁵.</em></p>
+</li>
+</ul>
+<h2 id=security>
+Security
+<a class=heading-link href=#security>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<ul>
+<li><a href=https://github.com/keepassxreboot/keepassxc><strong>KeePassXC</strong></a> - <em>Feature rich password manager. Using a password manager back in 2015 improved my online security by a lot. The ui fits all my needs (nested tree-structure for better organization, configurable favicons per entry, dark mode, and more). It is possible to sync the KDBX database across all devices. The built-in browser integration is working for all major browsers to auto-fill the username-/password fields. The search works incredible good and I use it on a daily basis. Many more useful features like TOTP generation, YubiKey support and a password generator. Definitely worth to take a look on it!</em></li>
+</ul>
+<h2 id=edc>
+EDC
+<a class=heading-link href=#edc>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<ul>
+<li><a href=https://www.amazon.de/gp/product/B081NGP2NY><strong>ZNAP Slim Wallet</strong></a> - <em>A great alternative to a big and clunky wallets. It can hold up to 12 cards and forces me to be more minimalistic.</em></li>
+<li><a href=https://www.amazon.de/gp/product/B00REWHOKQ><strong>Carbon Keycage</strong></a>- <em>Key organizer to keep my keys compact so that they fit very well into my pants or jacket pockets.</em></li>
+<li><a href=https://www.amazon.de/gp/product/B08FM6MZQ6><strong>Sofirm SC31 Pro</strong></a> - <em>My favorite EDC led light. For me, it is perfect for walking, hiking, camping and work usage. (USB-C chargeable, 2000 Lumen, 18650 battery, Anduril UI firmware, IPX8 water resistant)</em></li>
 </ul>
 </article>
 </section>
