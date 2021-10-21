@@ -6,7 +6,6 @@ draft: false
 
 {{< notice info >}} This page is currently under construction. {{< /notice >}}
 
-
 The tools section contains a list of useful tools and software I use for different ares. I hope you can make any advantage of it. If you have and useful suggestions, please contact me - I am grateful for any hint.
 
 ## Browser-Addons
@@ -20,6 +19,16 @@ The tools section contains a list of useful tools and software I use for differe
 - [**PiHole (Raspberry Pi 4)**](https://github.com/pi-hole/pi-hole) - _In 2021 I decided to selfhost a network wide DNS server with PiHole. It is blocking various ads and trackers on every device in my home network. I only had to configure the local dns entries of devices with an static ip-address. The modern web interface reveals shocking and surprising statistics about the joyful communication of some of my devices._
 
 - [**NextCloudPi (Raspberry Pi 4)**](https://github.com/nextcloud/nextcloudpi) - _For managing and synchronizing my contacts, calendar and notes I am using a dedicated server. I could run it on my Synology NAS, but I want to keep this data separated and I enjoy the NextCloud-UI. NextCloudPi is an ready to use image for any Raspberry Pi. It can automatically update and backup the running NextCloud instance with all the installed plugins. The whole configuration is optimized for running NextCloud on it - this is the reason why it feels so smooth and fast (e.g. Redis, OPcache, various cronjobs). To synchronize my contacts and calendar with my android phone, I am using DAVx⁵._
+
+## Productivity & Organization
+
+- [**Notion**](https://www.notion.so/) - _My favorite SaaS tool for my digital note-taking and knowledge management._
+- [**Feedly**](https://feedly.com/) - _RSS and Newsfeed reader. Organize all your feeds in different groups and save them as "read later"._
+- [**Raindrop**](https://app.raindrop.io/) - _My bookmark manager. It basically allows to create collections with links in it._
+
+## Finance
+
+- [**Parqet**](https://app.parqet.com/) - _(previously TresorOne) is a portfolio tracking platform. With the visual dashboard, you can track and analyze all your assets as well as relevant key figures. You can import your data from various sources (e.g. pdf exports), to combine them all together in one place._
 
 ## Security
 
