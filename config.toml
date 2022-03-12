@@ -55,15 +55,15 @@ pygmentscodefencesguesssyntax = true
   url = "https://www.linkedin.com/in/dennis-acar/"
 
 # Menu links
-[[menu.main]]
-  name = "About"
-  weight = 1
-  url = "about/"
-[[menu.main]]
-  name = "Blog"
-  weight = 2
-  url  = "posts/"
-[[menu.main]]
-  name = "Tools"
-  weight = 3
-  url = "tools/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 1
+#  url = "about/"
+#[[menu.main]]
+# name = "Blog"
+#  weight = 2
+#  url  = "posts/"
+#[[menu.main]]
+#  name = "Tools"
+#  weight = 3
+#  url = "tools/"
